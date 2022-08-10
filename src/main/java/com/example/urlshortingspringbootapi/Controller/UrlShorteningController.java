@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 
 @RestController
+@RequestMapping(path = "api/v1/urlshorting")
 public class UrlShorteningController {
 
     @Autowired
