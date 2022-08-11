@@ -6,7 +6,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class UrlRepositoryImpl implements UrlRepository{
+public abstract class UrlRepositoryImpl implements UrlRepository{
 
     @Autowired
     private RedisTemplate redisTemplate;
